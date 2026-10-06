@@ -1,0 +1,9 @@
+# AutoGen / AG2 multi-agent framework
+# Legacy AutoGen is in maintenance mode (Oct 2025+), so this demo uses the
+# community-maintained AG2 fork. This project uses the classic `autogen`
+# import namespace and v0.2-style GroupChat API; AG2 1.x removed that API.
+ag2[openai]>=0.7.0,<1.0
+
+# If you prefer the original (maintenance-mode) package instead of AG2,
+# comment the line above and uncomment this one:
+# pyautogen>=0.2.35
